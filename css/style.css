@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 200px;
+}
+
+.menu {
+    margin-left: 400px;
+    margin-top: 20px;
+    width: 10%;
+}
+
+.zakab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.zakab img {
+    width: 40%;
+}
+
+.zakab span {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #666666;
+}
+
+.zakab h2 {
+    margin-top: 10px;
+    font-size: 42px;
+    color: #000;
+}
+
+.zakab p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #25202F;
+    margin-top: 10px;
+}
+
+.zakab button {
+    background: #8643DC;
+    border-radius: 100px;
+    padding: 15px 30px;
+    border: none;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
